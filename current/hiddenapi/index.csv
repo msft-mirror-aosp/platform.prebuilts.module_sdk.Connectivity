@@ -85,9 +85,9 @@ Landroid/net/Network;->netId:I,packages/modules/Connectivity/framework/src/andro
 Landroid/net/Network;-><init>(I)V,packages/modules/Connectivity/framework/src/android/net/Network.java,115,5,115,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/NetworkAgent;->sendNetworkInfo(Landroid/net/NetworkInfo;)V,packages/modules/Connectivity/framework/src/android/net/NetworkAgent.java,946,5,946,88,maxTargetSdk=28&trackingBug=115609023L
 Landroid/net/NetworkCapabilities;->mNetworkCapabilities:J,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,222,5,222,88,maxTargetSdk=30&trackingBug=170729553L
-Landroid/net/NetworkCapabilities;->mSignalStrength:I,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1439,5,1439,63,maxTargetSdk=28
-Landroid/net/NetworkCapabilities;->hasSignalStrength()Z,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1465,5,1465,88,maxTargetSdk=30&trackingBug=170729553L
-Landroid/net/NetworkCapabilities;->transportNamesOf([I)Ljava/lang/String;,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,2148,5,2148,88,maxTargetSdk=30&trackingBug=170729553L
+Landroid/net/NetworkCapabilities;->mSignalStrength:I,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1452,5,1452,63,maxTargetSdk=28
+Landroid/net/NetworkCapabilities;->hasSignalStrength()Z,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1478,5,1478,88,maxTargetSdk=30&trackingBug=170729553L
+Landroid/net/NetworkCapabilities;->transportNamesOf([I)Ljava/lang/String;,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,2161,5,2161,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/NetworkInfo;-><init>(Landroid/net/NetworkInfo;)V,packages/modules/Connectivity/framework/src/android/net/NetworkInfo.java,181,5,181,25,
 Landroid/net/NetworkInfo;->setSubtype(ILjava/lang/String;)V,packages/modules/Connectivity/framework/src/android/net/NetworkInfo.java,250,5,250,25,
 Landroid/net/NetworkInfo;->setIsAvailable(Z)V,packages/modules/Connectivity/framework/src/android/net/NetworkInfo.java,369,5,369,25,
