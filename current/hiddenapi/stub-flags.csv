@@ -2582,6 +2582,7 @@ Landroid/net/NetworkCapabilities;->removeDefaultCapabilites()Landroid/net/Networ
 Landroid/net/NetworkCapabilities;->removeForbiddenCapability(I)Landroid/net/NetworkCapabilities;
 Landroid/net/NetworkCapabilities;->removeTransportType(I)Landroid/net/NetworkCapabilities;
 Landroid/net/NetworkCapabilities;->restrictCapabilitesForTestNetwork(I)V
+Landroid/net/NetworkCapabilities;->restrictCapabilitiesForTestNetwork(I)V
 Landroid/net/NetworkCapabilities;->satisfiedByImmutableNetworkCapabilities(Landroid/net/NetworkCapabilities;)Z
 Landroid/net/NetworkCapabilities;->satisfiedByLinkBandwidths(Landroid/net/NetworkCapabilities;)Z
 Landroid/net/NetworkCapabilities;->satisfiedByNetCapabilities(Landroid/net/NetworkCapabilities;Z)Z
@@ -3907,6 +3908,7 @@ Landroid/net/connectivity/framework/util/CollectionUtils;->any(Landroid/util/Spa
 Landroid/net/connectivity/framework/util/CollectionUtils;->any(Ljava/util/Collection;Ljava/util/function/Predicate;)Z
 Landroid/net/connectivity/framework/util/CollectionUtils;->contains([II)Z
 Landroid/net/connectivity/framework/util/CollectionUtils;->contains([Ljava/lang/Object;Ljava/lang/Object;)Z
+Landroid/net/connectivity/framework/util/CollectionUtils;->contains([SS)Z
 Landroid/net/connectivity/framework/util/CollectionUtils;->filter(Ljava/util/Collection;Ljava/util/function/Predicate;)Ljava/util/ArrayList;
 Landroid/net/connectivity/framework/util/CollectionUtils;->indexOf(Ljava/util/Collection;Ljava/util/function/Predicate;)I
 Landroid/net/connectivity/framework/util/CollectionUtils;->indexOf([Ljava/lang/Object;Ljava/lang/Object;)I
@@ -4117,7 +4119,6 @@ Landroid/net/connectivity/framework/util/NetworkCapabilitiesUtils;->NET_CAPABILI
 Landroid/net/connectivity/framework/util/NetworkCapabilitiesUtils;->NET_CAPABILITY_VEHICLE_INTERNAL:I
 Landroid/net/connectivity/framework/util/NetworkCapabilitiesUtils;->NET_CAPABILITY_VSIM:I
 Landroid/net/connectivity/framework/util/NetworkCapabilitiesUtils;->RESTRICTED_CAPABILITIES:J
-Landroid/net/connectivity/framework/util/NetworkCapabilitiesUtils;->TRANSPORT_USB:I
 Landroid/net/connectivity/framework/util/NetworkCapabilitiesUtils;->UNRESTRICTED_CAPABILITIES:J
 Landroid/net/connectivity/framework/util/NetworkCapabilitiesUtils;->getDisplayTransport([I)I
 Landroid/net/connectivity/framework/util/NetworkCapabilitiesUtils;->inferRestrictedCapability(Landroid/net/NetworkCapabilities;)Z
@@ -4151,6 +4152,7 @@ Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_CHECKSUM
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_ECHO_REPLY_TYPE:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_ECHO_REQUEST_TYPE:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_HEADER_MIN_LEN:I
+Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_NA_HEADER_LEN:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_ND_OPTION_LENGTH_SCALING_FACTOR:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_ND_OPTION_MIN_LENGTH:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_ND_OPTION_MTU:I
@@ -4161,9 +4163,11 @@ Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_ND_OPTIO
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_ND_OPTION_TLLA:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_NEIGHBOR_ADVERTISEMENT:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_NEIGHBOR_SOLICITATION:I
+Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_NS_HEADER_LEN:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_RA_HEADER_LEN:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_ROUTER_ADVERTISEMENT:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_ROUTER_SOLICITATION:I
+Landroid/net/connectivity/framework/util/NetworkStackConstants;->ICMPV6_RS_HEADER_LEN:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->INFINITE_LEASE:I
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->IPV4_ADDR_ALL:Ljava/net/Inet4Address;
 Landroid/net/connectivity/framework/util/NetworkStackConstants;->IPV4_ADDR_ANY:Ljava/net/Inet4Address;
