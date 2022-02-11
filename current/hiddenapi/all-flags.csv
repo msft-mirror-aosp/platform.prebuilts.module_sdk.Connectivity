@@ -3908,6 +3908,7 @@ Landroid/net/connectivity/framework/util/CollectionUtils;->any(Landroid/util/Spa
 Landroid/net/connectivity/framework/util/CollectionUtils;->any(Ljava/util/Collection;Ljava/util/function/Predicate;)Z,blocked
 Landroid/net/connectivity/framework/util/CollectionUtils;->contains([II)Z,blocked
 Landroid/net/connectivity/framework/util/CollectionUtils;->contains([Ljava/lang/Object;Ljava/lang/Object;)Z,blocked
+Landroid/net/connectivity/framework/util/CollectionUtils;->contains([SS)Z,blocked
 Landroid/net/connectivity/framework/util/CollectionUtils;->filter(Ljava/util/Collection;Ljava/util/function/Predicate;)Ljava/util/ArrayList;,blocked
 Landroid/net/connectivity/framework/util/CollectionUtils;->indexOf(Ljava/util/Collection;Ljava/util/function/Predicate;)I,blocked
 Landroid/net/connectivity/framework/util/CollectionUtils;->indexOf([Ljava/lang/Object;Ljava/lang/Object;)I,blocked
