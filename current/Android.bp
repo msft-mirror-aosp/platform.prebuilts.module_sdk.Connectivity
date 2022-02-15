@@ -38,8 +38,7 @@ prebuilt_bootclasspath_fragment {
 
 module_prebuilt_bootclasspath_fragment {
     name: "com.android.tethering-bootclasspath-fragment",
-    // Do not prefer prebuilt if SOONG_CONFIG_ANDROID_module_build_from_source is true.
-    prefer: true,
+    prefer: false,
     soong_config_variables: {
         module_build_from_source: {
             prefer: false,
@@ -96,8 +95,7 @@ java_sdk_library_import {
 
 module_java_sdk_library_import {
     name: "framework-connectivity",
-    // Do not prefer prebuilt if SOONG_CONFIG_ANDROID_module_build_from_source is true.
-    prefer: true,
+    prefer: false,
     soong_config_variables: {
         module_build_from_source: {
             prefer: false,
@@ -164,8 +162,7 @@ java_sdk_library_import {
 
 module_java_sdk_library_import {
     name: "framework-tethering",
-    // Do not prefer prebuilt if SOONG_CONFIG_ANDROID_module_build_from_source is true.
-    prefer: true,
+    prefer: false,
     soong_config_variables: {
         module_build_from_source: {
             prefer: false,
