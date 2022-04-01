@@ -1,18 +1,17 @@
 // This is auto-generated. DO NOT EDIT.
 
-// Soong config variable stanza added by vendor/google/build/mainline_modules_sdks.py.
+package {
+    // A default list here prevents the license LSC from adding its own list which would
+    // be unnecessary as every module in the sdk already has its own licenses property.
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
 soong_config_module_type_import {
     from: "packages/modules/common/Android.bp",
     module_types: [
         "module_java_sdk_library_import",
         "module_prebuilt_bootclasspath_fragment",
     ],
-}
-
-package {
-    // A default list here prevents the license LSC from adding its own list which would
-    // be unnecessary as every module in the sdk already has its own licenses property.
-    default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
 prebuilt_bootclasspath_fragment {
@@ -75,6 +74,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/public/framework-connectivity.srcjar"],
         current_api: "sdk_library/public/framework-connectivity.txt",
         removed_api: "sdk_library/public/framework-connectivity-removed.txt",
+        annotations: "sdk_library/public/framework-connectivity_annotations.zip",
         sdk_version: "module_current",
     },
     system: {
@@ -82,6 +82,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/system/framework-connectivity.srcjar"],
         current_api: "sdk_library/system/framework-connectivity.txt",
         removed_api: "sdk_library/system/framework-connectivity-removed.txt",
+        annotations: "sdk_library/system/framework-connectivity_annotations.zip",
         sdk_version: "module_current",
     },
     module_lib: {
@@ -89,6 +90,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/module-lib/framework-connectivity.srcjar"],
         current_api: "sdk_library/module-lib/framework-connectivity.txt",
         removed_api: "sdk_library/module-lib/framework-connectivity-removed.txt",
+        annotations: "sdk_library/module-lib/framework-connectivity_annotations.zip",
         sdk_version: "module_current",
     },
 }
@@ -111,6 +113,7 @@ module_java_sdk_library_import {
         stub_srcs: ["sdk_library/public/framework-connectivity.srcjar"],
         current_api: "sdk_library/public/framework-connectivity.txt",
         removed_api: "sdk_library/public/framework-connectivity-removed.txt",
+        annotations: "sdk_library/public/framework-connectivity_annotations.zip",
         sdk_version: "module_current",
     },
     system: {
@@ -118,6 +121,7 @@ module_java_sdk_library_import {
         stub_srcs: ["sdk_library/system/framework-connectivity.srcjar"],
         current_api: "sdk_library/system/framework-connectivity.txt",
         removed_api: "sdk_library/system/framework-connectivity-removed.txt",
+        annotations: "sdk_library/system/framework-connectivity_annotations.zip",
         sdk_version: "module_current",
     },
     module_lib: {
@@ -125,6 +129,7 @@ module_java_sdk_library_import {
         stub_srcs: ["sdk_library/module-lib/framework-connectivity.srcjar"],
         current_api: "sdk_library/module-lib/framework-connectivity.txt",
         removed_api: "sdk_library/module-lib/framework-connectivity-removed.txt",
+        annotations: "sdk_library/module-lib/framework-connectivity_annotations.zip",
         sdk_version: "module_current",
     },
 }
@@ -142,6 +147,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/public/framework-tethering.srcjar"],
         current_api: "sdk_library/public/framework-tethering.txt",
         removed_api: "sdk_library/public/framework-tethering-removed.txt",
+        annotations: "sdk_library/public/framework-tethering_annotations.zip",
         sdk_version: "module_current",
     },
     system: {
@@ -149,6 +155,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/system/framework-tethering.srcjar"],
         current_api: "sdk_library/system/framework-tethering.txt",
         removed_api: "sdk_library/system/framework-tethering-removed.txt",
+        annotations: "sdk_library/system/framework-tethering_annotations.zip",
         sdk_version: "module_current",
     },
     module_lib: {
@@ -156,6 +163,7 @@ java_sdk_library_import {
         stub_srcs: ["sdk_library/module-lib/framework-tethering.srcjar"],
         current_api: "sdk_library/module-lib/framework-tethering.txt",
         removed_api: "sdk_library/module-lib/framework-tethering-removed.txt",
+        annotations: "sdk_library/module-lib/framework-tethering_annotations.zip",
         sdk_version: "module_current",
     },
 }
@@ -178,6 +186,7 @@ module_java_sdk_library_import {
         stub_srcs: ["sdk_library/public/framework-tethering.srcjar"],
         current_api: "sdk_library/public/framework-tethering.txt",
         removed_api: "sdk_library/public/framework-tethering-removed.txt",
+        annotations: "sdk_library/public/framework-tethering_annotations.zip",
         sdk_version: "module_current",
     },
     system: {
@@ -185,6 +194,7 @@ module_java_sdk_library_import {
         stub_srcs: ["sdk_library/system/framework-tethering.srcjar"],
         current_api: "sdk_library/system/framework-tethering.txt",
         removed_api: "sdk_library/system/framework-tethering-removed.txt",
+        annotations: "sdk_library/system/framework-tethering_annotations.zip",
         sdk_version: "module_current",
     },
     module_lib: {
@@ -192,6 +202,7 @@ module_java_sdk_library_import {
         stub_srcs: ["sdk_library/module-lib/framework-tethering.srcjar"],
         current_api: "sdk_library/module-lib/framework-tethering.txt",
         removed_api: "sdk_library/module-lib/framework-tethering-removed.txt",
+        annotations: "sdk_library/module-lib/framework-tethering_annotations.zip",
         sdk_version: "module_current",
     },
 }
