@@ -917,12 +917,10 @@ Landroid/net/DscpPolicy;->getSourcePort()I,sdk,system-api,test-api
 Landroid/net/DscpPolicy;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/DscpPolicy;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/DscpPolicy;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
-Landroid/net/EthernetManager$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/net/EthernetManager$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/EthernetManager$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/net/EthernetManager$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/EthernetManager$2$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/EthernetManager$2$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/EthernetManager$3$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/EthernetManager$Listener;->onAvailabilityChanged(Ljava/lang/String;Z)V,max-target-r
 Landroid/net/EthernetManager$NetworkInterfaceOutcomeReceiver$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/EthernetManager$NetworkInterfaceOutcomeReceiver$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
@@ -940,7 +938,6 @@ Landroid/net/EthernetManager;->getConfiguration(Ljava/lang/String;)Landroid/net/
 Landroid/net/EthernetManager;->isAvailable()Z,max-target-r
 Landroid/net/EthernetManager;->isAvailable(Ljava/lang/String;)Z,max-target-r
 Landroid/net/EthernetManager;->mService:Landroid/net/IEthernetManager;,lo-prio,max-target-o
-Landroid/net/EthernetManager;->mServiceListener:Landroid/net/IEthernetServiceListener$Stub;,lo-prio,max-target-o
 Landroid/net/EthernetManager;->removeListener(Landroid/net/EthernetManager$Listener;)V,max-target-r
 Landroid/net/EthernetManager;->requestTetheredInterface(Ljava/util/concurrent/Executor;Landroid/net/EthernetManager$TetheredInterfaceCallback;)Landroid/net/EthernetManager$TetheredInterfaceRequest;,sdk,system-api,test-api
 Landroid/net/EthernetManager;->setConfiguration(Ljava/lang/String;Landroid/net/IpConfiguration;)V,max-target-r
@@ -2566,7 +2563,6 @@ Landroid/net/NetworkStatsHistory;->recordData(JJJJ)V,lo-prio,max-target-o
 Landroid/net/NetworkStatsHistory;->recordData(JJLandroid/net/NetworkStats$Entry;)V,lo-prio,max-target-o
 Landroid/net/NetworkStatsHistory;->recordEntireHistory(Landroid/net/NetworkStatsHistory;)V,unsupported
 Landroid/net/NetworkStatsHistory;->recordHistory(Landroid/net/NetworkStatsHistory;JJ)V,lo-prio,max-target-o
-Landroid/net/NetworkStatsHistory;->removeBucketsBefore(J)V,lo-prio,max-target-o
 Landroid/net/NetworkStatsHistory;->rxBytes:[J,lo-prio,max-target-o
 Landroid/net/NetworkStatsHistory;->rxPackets:[J,lo-prio,max-target-o
 Landroid/net/NetworkStatsHistory;->setLong([JIJ)V,lo-prio,max-target-o
