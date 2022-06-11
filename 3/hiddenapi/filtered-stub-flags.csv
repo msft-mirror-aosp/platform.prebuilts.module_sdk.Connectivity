@@ -130,6 +130,7 @@ Landroid/nearby/NearbyManager$BroadcastListenerTransport$$ExternalSyntheticLambd
 Landroid/nearby/NearbyManager$ScanListenerTransport$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/nearby/NearbyManager$ScanListenerTransport$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/nearby/NearbyManager$ScanListenerTransport$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/nearby/NearbyManager$ScanListenerTransport$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/nearby/NearbyManager;->startBroadcast(Landroid/nearby/BroadcastRequest;Ljava/util/concurrent/Executor;Landroid/nearby/BroadcastCallback;)V,system-api,test-api
 Landroid/nearby/NearbyManager;->startScan(Landroid/nearby/ScanRequest;Ljava/util/concurrent/Executor;Landroid/nearby/ScanCallback;)I,system-api,test-api
 Landroid/nearby/NearbyManager;->stopBroadcast(Landroid/nearby/BroadcastCallback;)V,system-api,test-api
@@ -671,12 +672,10 @@ Landroid/net/DscpPolicy;->getSourcePort()I,system-api,test-api
 Landroid/net/DscpPolicy;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/net/DscpPolicy;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/net/DscpPolicy;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
-Landroid/net/EthernetManager$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
-Landroid/net/EthernetManager$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/net/EthernetManager$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/net/EthernetManager$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/EthernetManager$2$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/EthernetManager$2$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/EthernetManager$3$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/EthernetManager$NetworkInterfaceOutcomeReceiver$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/EthernetManager$NetworkInterfaceOutcomeReceiver$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/EthernetManager$TetheredInterfaceCallback;->onAvailable(Ljava/lang/String;)V,system-api,test-api
