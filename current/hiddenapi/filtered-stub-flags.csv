@@ -1969,8 +1969,15 @@ Landroid/net/nsd/NsdManager$DiscoveryListener;->onStartDiscoveryFailed(Ljava/lan
 Landroid/net/nsd/NsdManager$DiscoveryListener;->onStopDiscoveryFailed(Ljava/lang/String;I)V,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$1;->onAvailable(Landroid/net/Network;)V,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$1;->onLost(Landroid/net/Network;)V,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$DelegatingDiscoveryListener$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$DelegatingDiscoveryListener$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$DelegatingDiscoveryListener$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$DelegatingDiscoveryListener$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$DelegatingDiscoveryListener$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$DelegatingDiscoveryListener;->onDiscoveryStarted(Ljava/lang/String;)V,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$DelegatingDiscoveryListener;->onDiscoveryStopped(Ljava/lang/String;)V,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$PerNetworkDiscoveryTracker$DelegatingDiscoveryListener;->onServiceFound(Landroid/net/nsd/NsdServiceInfo;)V,public-api,system-api,test-api
