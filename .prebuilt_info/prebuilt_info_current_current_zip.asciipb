@@ -1,6 +1,10 @@
 drops {
   android_build_drop {
+<<<<<<< HEAD   (237780 [automerger skipped] DO NOT MERGE - Merge TP1A.220624.013 am)
     build_id: "T1004067"
+=======
+    build_id: "T1004275"
+>>>>>>> CHANGE (1e944f DO NOT MERGE Drop prebuilt files to android source tree.)
     target: "train_build"
     source_file: "mainline-sdks/for-Tiramisu-build/current/com.google.android.tethering/sdk/tethering-module-sdk-current.zip"
   }
