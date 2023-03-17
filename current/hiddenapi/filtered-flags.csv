@@ -1992,7 +1992,6 @@ Landroid/net/NetworkCapabilities$Builder;->setSubscriptionIds(Ljava/util/Set;)La
 Landroid/net/NetworkCapabilities$Builder;->setTransportInfo(Landroid/net/TransportInfo;)Landroid/net/NetworkCapabilities$Builder;,sdk,system-api,test-api
 Landroid/net/NetworkCapabilities$Builder;->setUnderlyingNetworks(Ljava/util/List;)Landroid/net/NetworkCapabilities$Builder;,sdk,system-api,test-api
 Landroid/net/NetworkCapabilities$Builder;->withoutDefaultCapabilities()Landroid/net/NetworkCapabilities$Builder;,sdk,system-api,test-api
-Landroid/net/NetworkCapabilities$NameOf;->nameOf(I)Ljava/lang/String;,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;-><init>()V,public-api,sdk,system-api,test-api
 Landroid/net/NetworkCapabilities;-><init>(Landroid/net/NetworkCapabilities;)V,public-api,sdk,system-api,test-api
 Landroid/net/NetworkCapabilities;->CREATOR:Landroid/os/Parcelable$Creator;,public-api,sdk,system-api,test-api
@@ -2056,7 +2055,6 @@ Landroid/net/NetworkCapabilities;->TRANSPORT_USB:I,public-api,sdk,system-api,tes
 Landroid/net/NetworkCapabilities;->TRANSPORT_VPN:I,public-api,sdk,system-api,test-api
 Landroid/net/NetworkCapabilities;->TRANSPORT_WIFI:I,public-api,sdk,system-api,test-api
 Landroid/net/NetworkCapabilities;->TRANSPORT_WIFI_AWARE:I,public-api,sdk,system-api,test-api
-Landroid/net/NetworkCapabilities;->appendStringRepresentationOfBitMaskToStringBuilder(Ljava/lang/StringBuilder;JLandroid/net/NetworkCapabilities$NameOf;Ljava/lang/String;)V,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;->appliesToUid(I)Z,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;->appliesToUidRange(Landroid/net/UidRange;)Z,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;->capabilityNameOf(I)Ljava/lang/String;,lo-prio,max-target-o
@@ -3186,12 +3184,6 @@ Landroid/net/connectivity/android/net/nsd/INsdServiceConnector$Stub$Proxy;->asBi
 Landroid/net/connectivity/android/net/nsd/INsdServiceConnector$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/nsd/INsdServiceConnector$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/util/DnsUtils$Rfc6724Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/net/connectivity/android/net/util/MultinetworkPolicyTracker$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/net/connectivity/android/net/util/MultinetworkPolicyTracker$1;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V,public-api,sdk,system-api,test-api
-Landroid/net/connectivity/android/net/util/MultinetworkPolicyTracker$ActiveDataSubscriptionIdListener;->onActiveDataSubscriptionIdChanged(I)V,public-api,sdk,system-api,test-api
-Landroid/net/connectivity/android/net/util/MultinetworkPolicyTracker$HandlerExecutor;->execute(Ljava/lang/Runnable;)V,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/net/connectivity/android/net/util/MultinetworkPolicyTracker$SettingObserver;->onChange(Z)V,public-api,sdk,system-api,test-api
-Landroid/net/connectivity/android/net/util/MultinetworkPolicyTracker$SettingObserver;->onChange(ZLandroid/net/Uri;)V,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/util/IndentingPrintWriter;->println()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/util/IndentingPrintWriter;->write(I)V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/util/IndentingPrintWriter;->write(Ljava/lang/String;II)V,core-platform-api,public-api,sdk,system-api,test-api
@@ -3201,6 +3193,15 @@ Landroid/net/connectivity/com/android/net/module/util/BestClock;->getZone()Ljava
 Landroid/net/connectivity/com/android/net/module/util/BestClock;->instant()Ljava/time/Instant;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/BestClock;->millis()J,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/BestClock;->withZone(Ljava/time/ZoneId;)Ljava/time/Clock;,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/com/android/net/module/util/DnsPacket$DnsHeader;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/com/android/net/module/util/DnsPacket$DnsHeader;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/com/android/net/module/util/DnsPacket$DnsHeader;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/com/android/net/module/util/DnsPacket$DnsRecord;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/com/android/net/module/util/DnsPacket$DnsRecord;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/com/android/net/module/util/DnsPacket$DnsRecord;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/com/android/net/module/util/DnsPacket;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/com/android/net/module/util/DnsPacket;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/com/android/net/module/util/DnsPacket;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/DnsSdTxtRecord$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/DnsSdTxtRecord$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/DnsSdTxtRecord;->describeContents()I,public-api,sdk,system-api,test-api
