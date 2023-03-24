@@ -2009,6 +2009,12 @@ Landroid/net/nsd/NsdManager$ResolveListener;->onServiceResolved(Landroid/net/nsd
 Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda10;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda11;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda12;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda13;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda14;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda15;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda16;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda17;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/nsd/NsdManager$ServiceHandler$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
