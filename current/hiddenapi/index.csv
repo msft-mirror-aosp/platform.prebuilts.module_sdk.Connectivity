@@ -201,7 +201,7 @@ Landroid/net/TrafficStats;->getStatsService()Landroid/net/INetworkStatsService;,
 Landroid/net/TrafficStats;->getMobileTcpRxPackets()J,packages/modules/Connectivity/framework-t/src/android/net/TrafficStats.java,684,5,684,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/TrafficStats;->getMobileTcpTxPackets()J,packages/modules/Connectivity/framework-t/src/android/net/TrafficStats.java,700,5,700,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/TrafficStats;->getMobileIfaces()[Ljava/lang/String;,packages/modules/Connectivity/framework-t/src/android/net/TrafficStats.java,1126,5,1126,88,maxTargetSdk=28&trackingBug=130143562L
-Landroid/net/nsd/NsdServiceInfo;->setAttribute(Ljava/lang/String;[B)V,packages/modules/Connectivity/framework-t/src/android/net/nsd/NsdServiceInfo.java,193,5,193,25,
+Landroid/net/nsd/NsdServiceInfo;->setAttribute(Ljava/lang/String;[B)V,packages/modules/Connectivity/framework-t/src/android/net/nsd/NsdServiceInfo.java,232,5,232,25,
 Lcom/android/internal/util/Preconditions;->checkArgument(Z)V,frameworks/libs/modules-utils/java/com/android/internal/util/Preconditions.java,41,5,41,25,
 Lcom/android/internal/util/Preconditions;->checkArgument(ZLjava/lang/Object;)V,frameworks/libs/modules-utils/java/com/android/internal/util/Preconditions.java,56,5,56,88,maxTargetSdk=30&trackingBug=170729553L
 Lcom/android/internal/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;,frameworks/libs/modules-utils/java/com/android/internal/util/Preconditions.java,144,5,144,25,
