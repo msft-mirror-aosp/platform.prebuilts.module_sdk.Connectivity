@@ -206,6 +206,43 @@ license {
     license_text: ["licenses/build/soong/licenses/LICENSE"],
 }
 
+cc_prebuilt_library_shared {
+    name: "libnetd_updatable",
+    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
+    use_source_config_var: {
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
+    },
+    visibility: ["//visibility:public"],
+    apex_available: ["com.android.tethering"],
+    licenses: ["tethering-module-sdk_Android-Apache-2.0"],
+    compile_multilib: "both",
+    export_include_dirs: ["include/packages/modules/Connectivity/netd/include"],
+    sanitize: {
+        cfi: true,
+    },
+    stubs: {
+        versions: [
+            "1",
+            "current",
+        ],
+    },
+    arch: {
+        arm64: {
+            srcs: ["arm64/lib/libnetd_updatable.so"],
+        },
+        x86_64: {
+            srcs: ["x86_64/lib/libnetd_updatable.so"],
+        },
+        arm: {
+            srcs: ["arm/lib/libnetd_updatable.so"],
+        },
+        x86: {
+            srcs: ["x86/lib/libnetd_updatable.so"],
+        },
+    },
+}
+
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.tethering-systemserverclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
