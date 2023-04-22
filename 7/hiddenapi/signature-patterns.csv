@@ -157,7 +157,6 @@ android/net/http/UploadDataSink
 android/net/http/UrlRequest
 android/net/http/UrlResponseInfo
 android/net/http/apihelpers/**
-android/net/http/internal/**
 android/net/netstats/provider/**
 android/net/nsd/**
 android/net/util/KeepaliveUtils

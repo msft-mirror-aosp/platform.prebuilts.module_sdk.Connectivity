@@ -103,7 +103,7 @@ Landroid/net/LinkProperties;->isIdenticalStackedLinks(Landroid/net/LinkPropertie
 Landroid/net/MacAddress;->ALL_ZEROS_ADDRESS:Landroid/net/MacAddress;,packages/modules/Connectivity/framework/src/android/net/MacAddress.java,62,5,62,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/Network;->netId:I,packages/modules/Connectivity/framework/src/android/net/Network.java,69,5,69,25,
 Landroid/net/Network;-><init>(I)V,packages/modules/Connectivity/framework/src/android/net/Network.java,115,5,115,88,maxTargetSdk=30&trackingBug=170729553L
-Landroid/net/NetworkAgent;->sendNetworkInfo(Landroid/net/NetworkInfo;)V,packages/modules/Connectivity/framework/src/android/net/NetworkAgent.java,1092,5,1092,88,maxTargetSdk=28&trackingBug=115609023L
+Landroid/net/NetworkAgent;->sendNetworkInfo(Landroid/net/NetworkInfo;)V,packages/modules/Connectivity/framework/src/android/net/NetworkAgent.java,1078,5,1078,88,maxTargetSdk=28&trackingBug=115609023L
 Landroid/net/NetworkCapabilities;->mNetworkCapabilities:J,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,385,5,385,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/NetworkCapabilities;->mSignalStrength:I,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1731,5,1731,63,maxTargetSdk=28
 Landroid/net/NetworkCapabilities;->hasSignalStrength()Z,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1757,5,1757,88,maxTargetSdk=30&trackingBug=170729553L
