@@ -130,6 +130,9 @@ android/net/UnderlyingNetworkInfo
 android/net/VpnTransportInfo
 android/net/apf/**
 android/net/connectivity/**
+android/net/http/apihelpers/**
+android/net/http/internal/**
 android/net/netstats/provider/**
 android/net/nsd/**
 android/net/util/KeepaliveUtils
+android/net/wear/**
