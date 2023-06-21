@@ -140,6 +140,7 @@ android/net/http/ConnectionMigrationOptions
 android/net/http/DnsOptions
 android/net/http/ExperimentalBidirectionalStream
 android/net/http/ExperimentalHttpEngine
+android/net/http/ExperimentalOptionsTranslatingHttpEngineBuilder
 android/net/http/ExperimentalUrlRequest
 android/net/http/HeaderBlock
 android/net/http/HttpEngine
