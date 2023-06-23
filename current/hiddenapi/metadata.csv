@@ -173,16 +173,15 @@ signature,implicitMember,maxTargetSdk,overrideSourcePosition,publicAlternatives,
 |Landroid/net/NetworkStatsHistory;->getValues(JJLandroid/net/NetworkStatsHistory$Entry;)Landroid/net/NetworkStatsHistory$Entry;|,||,||,||,||,||
 |Landroid/net/NetworkStatsHistory;->recordEntireHistory(Landroid/net/NetworkStatsHistory;)V|,||,||,||,||,||
 |Landroid/net/NetworkStatsHistory;->size()I|,||,|30|,||,||,|170729553|
-|Landroid/net/NetworkTemplate;-><init>(ILjava/lang/String;Ljava/lang/String;)V|,||,||,||,||,||
+|Landroid/net/NetworkTemplate;-><init>(ILjava/lang/String;Ljava/lang/String;)V|,||,|33|,||,|Use {@code Builder} instead.|,||
 |Landroid/net/NetworkTemplate;->CREATOR:Landroid/os/Parcelable$Creator;|,||,||,||,||,||
-|Landroid/net/NetworkTemplate;->buildTemplateEthernet()Landroid/net/NetworkTemplate;|,||,||,||,||,||
-|Landroid/net/NetworkTemplate;->buildTemplateMobileAll(Ljava/lang/String;)Landroid/net/NetworkTemplate;|,||,||,||,||,||
+|Landroid/net/NetworkTemplate;->buildTemplateEthernet()Landroid/net/NetworkTemplate;|,||,|33|,||,|Use {@code Builder} instead.|,||
+|Landroid/net/NetworkTemplate;->buildTemplateMobileAll(Ljava/lang/String;)Landroid/net/NetworkTemplate;|,||,|33|,||,|Use {@code Builder} instead.|,||
 |Landroid/net/NetworkTemplate;->buildTemplateMobileWildcard()Landroid/net/NetworkTemplate;|,||,|30|,||,||,|170729553|
-|Landroid/net/NetworkTemplate;->buildTemplateWifi()Landroid/net/NetworkTemplate;|,||,||,||,||,||
-|Landroid/net/NetworkTemplate;->buildTemplateWifiWildcard()Landroid/net/NetworkTemplate;|,||,||,||,||,||
-|Landroid/net/NetworkTemplate;->getMatchRule()I|,||,||,||,||,||
-|Landroid/net/NetworkTemplate;->getSubscriberId()Ljava/lang/String;|,||,||,||,||,||
-|Landroid/net/NetworkTemplate;->normalize(Landroid/net/NetworkTemplate;[Ljava/lang/String;)Landroid/net/NetworkTemplate;|,||,||,||,||,||
+|Landroid/net/NetworkTemplate;->buildTemplateWifi()Landroid/net/NetworkTemplate;|,||,|33|,||,|Use {@code Builder} instead.|,||
+|Landroid/net/NetworkTemplate;->buildTemplateWifiWildcard()Landroid/net/NetworkTemplate;|,||,|33|,||,|Use {@code Builder} instead.|,||
+|Landroid/net/NetworkTemplate;->getSubscriberId()Ljava/lang/String;|,||,|33|,||,|Caller should use {@code getSubscriberIds} instead.|,||
+|Landroid/net/NetworkTemplate;->normalize(Landroid/net/NetworkTemplate;[Ljava/lang/String;)Landroid/net/NetworkTemplate;|,||,|33|,||,|There is no alternative for {@code NetworkTemplate.normalize}.Callers should have their own logic to merge template for different IMSIs and stop calling this function.|,||
 |Landroid/net/NetworkUtils;->getImplicitNetmask(Ljava/net/Inet4Address;)I|,||,|30|,||,||,|170729553|
 |Landroid/net/NetworkUtils;->intToInetAddress(I)Ljava/net/InetAddress;|,||,||,||,||,||
 |Landroid/net/NetworkUtils;->netmaskToPrefixLength(Ljava/net/Inet4Address;)I|,||,|30|,||,||,|170729553|
