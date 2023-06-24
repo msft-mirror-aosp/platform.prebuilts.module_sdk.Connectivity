@@ -179,7 +179,6 @@ Landroid/net/NetworkTemplate;->buildTemplateMobileAll(Ljava/lang/String;)Landroi
 Landroid/net/NetworkTemplate;->buildTemplateMobileWildcard()Landroid/net/NetworkTemplate;,max-target-r
 Landroid/net/NetworkTemplate;->buildTemplateWifi()Landroid/net/NetworkTemplate;,unsupported
 Landroid/net/NetworkTemplate;->buildTemplateWifiWildcard()Landroid/net/NetworkTemplate;,unsupported
-Landroid/net/NetworkTemplate;->getMatchRule()I,unsupported
 Landroid/net/NetworkTemplate;->getSubscriberId()Ljava/lang/String;,unsupported
 Landroid/net/NetworkTemplate;->normalize(Landroid/net/NetworkTemplate;[Ljava/lang/String;)Landroid/net/NetworkTemplate;,unsupported
 Landroid/net/NetworkUtils;->getImplicitNetmask(Ljava/net/Inet4Address;)I,max-target-r
