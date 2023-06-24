@@ -105,9 +105,9 @@ Landroid/net/Network;->netId:I,packages/modules/Connectivity/framework/src/andro
 Landroid/net/Network;-><init>(I)V,packages/modules/Connectivity/framework/src/android/net/Network.java,115,5,115,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/NetworkAgent;->sendNetworkInfo(Landroid/net/NetworkInfo;)V,packages/modules/Connectivity/framework/src/android/net/NetworkAgent.java,1078,5,1078,88,maxTargetSdk=28&trackingBug=115609023L
 Landroid/net/NetworkCapabilities;->mNetworkCapabilities:J,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,385,5,385,88,maxTargetSdk=30&trackingBug=170729553L
-Landroid/net/NetworkCapabilities;->mSignalStrength:I,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1731,5,1731,63,maxTargetSdk=28
-Landroid/net/NetworkCapabilities;->hasSignalStrength()Z,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1757,5,1757,88,maxTargetSdk=30&trackingBug=170729553L
-Landroid/net/NetworkCapabilities;->transportNamesOf([I)Ljava/lang/String;,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,2482,5,2482,88,maxTargetSdk=30&trackingBug=170729553L
+Landroid/net/NetworkCapabilities;->mSignalStrength:I,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1743,5,1743,63,maxTargetSdk=28
+Landroid/net/NetworkCapabilities;->hasSignalStrength()Z,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,1769,5,1769,88,maxTargetSdk=30&trackingBug=170729553L
+Landroid/net/NetworkCapabilities;->transportNamesOf([I)Ljava/lang/String;,packages/modules/Connectivity/framework/src/android/net/NetworkCapabilities.java,2494,5,2494,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/NetworkInfo;-><init>(Landroid/net/NetworkInfo;)V,packages/modules/Connectivity/framework/src/android/net/NetworkInfo.java,182,5,182,25,
 Landroid/net/NetworkInfo;->setSubtype(ILjava/lang/String;)V,packages/modules/Connectivity/framework/src/android/net/NetworkInfo.java,253,5,253,25,
 Landroid/net/NetworkInfo;->setIsAvailable(Z)V,packages/modules/Connectivity/framework/src/android/net/NetworkInfo.java,390,5,390,25,
@@ -183,7 +183,7 @@ Landroid/net/NetworkUtils;->netmaskToPrefixLength(Ljava/net/Inet4Address;)I,pack
 Landroid/net/NetworkUtils;->numericToInetAddress(Ljava/lang/String;)Ljava/net/InetAddress;,packages/modules/Connectivity/framework/src/android/net/NetworkUtils.java,245,5,245,63,maxTargetSdk=28
 Landroid/net/NetworkUtils;->getImplicitNetmask(Ljava/net/Inet4Address;)I,packages/modules/Connectivity/framework/src/android/net/NetworkUtils.java,255,5,255,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/NetworkUtils;->trimV4AddrZeros(Ljava/lang/String;)Ljava/lang/String;,packages/modules/Connectivity/framework/src/android/net/NetworkUtils.java,356,5,356,25,
-Landroid/net/ProxyInfo;-><init>(Ljava/lang/String;ILjava/lang/String;)V,packages/modules/Connectivity/framework/src/android/net/ProxyInfo.java,108,5,108,25,
+Landroid/net/ProxyInfo;-><init>(Ljava/lang/String;ILjava/lang/String;)V,packages/modules/Connectivity/framework/src/android/net/ProxyInfo.java,110,5,110,25,
 Landroid/net/RouteInfo;->mGateway:Ljava/net/InetAddress;,packages/modules/Connectivity/framework/src/android/net/RouteInfo.java,78,5,78,25,
 Landroid/net/RouteInfo;->mIsHost:Z,packages/modules/Connectivity/framework/src/android/net/RouteInfo.java,123,5,123,88,maxTargetSdk=28&trackingBug=115609023L
 Landroid/net/RouteInfo;-><init>(Landroid/net/IpPrefix;Ljava/net/InetAddress;Ljava/lang/String;)V,packages/modules/Connectivity/framework/src/android/net/RouteInfo.java,247,5,247,88,maxTargetSdk=30&trackingBug=170729553L
