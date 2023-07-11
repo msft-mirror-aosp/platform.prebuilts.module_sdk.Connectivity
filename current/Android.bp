@@ -1,5 +1,11 @@
 // This is auto-generated. DO NOT EDIT.
 
+// blueprint rules added by vendor/google/build/mainline_modules_sdks.py
+// to support coexistence.
+blueprint_package_includes {
+    match_all: ["com.android.mainline"]
+}
+
 package {
     // A default list here prevents the license LSC from adding its own list which would
     // be unnecessary as every module in the sdk already has its own licenses property.
@@ -56,18 +62,6 @@ prebuilt_platform_compat_config {
     visibility: ["//visibility:public"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
     metadata: "compat_configs/connectivity-platform-compat-config/connectivity-platform-compat-config_meta.xml",
-}
-
-prebuilt_platform_compat_config {
-    name: "connectivity-t-platform-compat-config",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
-    visibility: ["//visibility:public"],
-    licenses: ["tethering-module-sdk_Android-Apache-2.0"],
-    metadata: "compat_configs/connectivity-t-platform-compat-config/connectivity-t-platform-compat-config_meta.xml",
 }
 
 java_sdk_library_import {

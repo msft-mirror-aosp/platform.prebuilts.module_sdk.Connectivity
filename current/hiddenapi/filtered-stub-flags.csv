@@ -485,6 +485,8 @@ Landroid/net/ConnectivityManager$PacketKeepalive$$ExternalSyntheticLambda0;->run
 Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/ConnectivityManager;->ACTION_BACKGROUND_DATA_SETTING_CHANGED:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/net/ConnectivityManager;->ACTION_CAPTIVE_PORTAL_SIGN_IN:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/net/ConnectivityManager;->ACTION_RESTRICT_BACKGROUND_CHANGED:Ljava/lang/String;,public-api,system-api,test-api
@@ -1529,6 +1531,8 @@ Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda0;->run()V,core-platform-
 Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda5;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/SocketKeepalive$Callback;-><init>()V,public-api,system-api,test-api
 Landroid/net/SocketKeepalive$Callback;->onDataReceived()V,public-api,system-api,test-api
 Landroid/net/SocketKeepalive$Callback;->onError(I)V,public-api,system-api,test-api
@@ -2062,3 +2066,7 @@ Landroid/net/nsd/NsdServiceInfo;->setServiceName(Ljava/lang/String;)V,public-api
 Landroid/net/nsd/NsdServiceInfo;->setServiceType(Ljava/lang/String;)V,public-api,system-api,test-api
 Landroid/net/nsd/NsdServiceInfo;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/net/nsd/NsdServiceInfo;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
+Landroid/net/wear/ICompanionDeviceManagerProxy$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/net/wear/ICompanionDeviceManagerProxy$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/net/wear/ICompanionDeviceManagerProxy$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/net/wear/ICompanionDeviceManagerProxy$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api

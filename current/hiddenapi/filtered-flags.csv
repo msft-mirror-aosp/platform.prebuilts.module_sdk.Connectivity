@@ -569,6 +569,8 @@ Landroid/net/ConnectivityManager$PacketKeepalive$$ExternalSyntheticLambda0;->run
 Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/ConnectivityManager$PacketKeepalive$1$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/ConnectivityManager$PacketKeepalive;->BINDER_DIED:I,lo-prio,max-target-o
 Landroid/net/ConnectivityManager$PacketKeepalive;->ERROR_HARDWARE_ERROR:I,lo-prio,max-target-o
 Landroid/net/ConnectivityManager$PacketKeepalive;->ERROR_HARDWARE_UNSUPPORTED:I,lo-prio,max-target-o
@@ -583,7 +585,6 @@ Landroid/net/ConnectivityManager$PacketKeepalive;->NO_KEEPALIVE:I,lo-prio,max-ta
 Landroid/net/ConnectivityManager$PacketKeepalive;->SUCCESS:I,lo-prio,max-target-o
 Landroid/net/ConnectivityManager$PacketKeepalive;->TAG:Ljava/lang/String;,lo-prio,max-target-o
 Landroid/net/ConnectivityManager$PacketKeepalive;->mNetwork:Landroid/net/Network;,lo-prio,max-target-o
-Landroid/net/ConnectivityManager$PacketKeepalive;->mSlot:Ljava/lang/Integer;,lo-prio,max-target-o
 Landroid/net/ConnectivityManager$PacketKeepalive;->stop()V,max-target-r
 Landroid/net/ConnectivityManager$PacketKeepaliveCallback;-><init>()V,max-target-r
 Landroid/net/ConnectivityManager$PacketKeepaliveCallback;->onError(I)V,max-target-r
@@ -1036,7 +1037,6 @@ Landroid/net/IConnectivityManager$Stub$Proxy;->setAvoidUnvalidated(Landroid/net/
 Landroid/net/IConnectivityManager$Stub$Proxy;->setGlobalProxy(Landroid/net/ProxyInfo;)V,lo-prio,max-target-o
 Landroid/net/IConnectivityManager$Stub$Proxy;->setProvisioningNotificationVisible(ZILjava/lang/String;)V,lo-prio,max-target-o
 Landroid/net/IConnectivityManager$Stub$Proxy;->startCaptivePortalApp(Landroid/net/Network;)V,lo-prio,max-target-o
-Landroid/net/IConnectivityManager$Stub$Proxy;->stopKeepalive(Landroid/net/Network;I)V,lo-prio,max-target-o
 Landroid/net/IConnectivityManager$Stub;->DESCRIPTOR:Ljava/lang/String;,lo-prio,max-target-o
 Landroid/net/IConnectivityManager$Stub;->TRANSACTION_factoryReset:I,lo-prio,max-target-o
 Landroid/net/IConnectivityManager$Stub;->TRANSACTION_getActiveLinkProperties:I,lo-prio,max-target-o
@@ -1128,7 +1128,6 @@ Landroid/net/IConnectivityManager;->setAvoidUnvalidated(Landroid/net/Network;)V,
 Landroid/net/IConnectivityManager;->setGlobalProxy(Landroid/net/ProxyInfo;)V,lo-prio,max-target-o
 Landroid/net/IConnectivityManager;->setProvisioningNotificationVisible(ZILjava/lang/String;)V,lo-prio,max-target-o
 Landroid/net/IConnectivityManager;->startCaptivePortalApp(Landroid/net/Network;)V,lo-prio,max-target-o
-Landroid/net/IConnectivityManager;->stopKeepalive(Landroid/net/Network;I)V,lo-prio,max-target-o
 Landroid/net/IEthernetManager$Default;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/net/IEthernetManager$Stub$Proxy;-><init>(Landroid/os/IBinder;)V,lo-prio,max-target-o
 Landroid/net/IEthernetManager$Stub$Proxy;->addListener(Landroid/net/IEthernetServiceListener;)V,lo-prio,max-target-o
@@ -2543,10 +2542,9 @@ Landroid/net/NetworkTemplate;->CREATOR:Landroid/os/Parcelable$Creator;,unsupport
 Landroid/net/NetworkTemplate;->MATCH_BLUETOOTH:I,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->MATCH_ETHERNET:I,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->MATCH_MOBILE:I,lo-prio,max-target-o
-Landroid/net/NetworkTemplate;->MATCH_MOBILE_WILDCARD:I,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->MATCH_PROXY:I,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->MATCH_WIFI:I,lo-prio,max-target-o
-Landroid/net/NetworkTemplate;->MATCH_WIFI_WILDCARD:I,lo-prio,max-target-o
+Landroid/net/NetworkTemplate;->TAG:Ljava/lang/String;,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->buildTemplateBluetooth()Landroid/net/NetworkTemplate;,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->buildTemplateEthernet()Landroid/net/NetworkTemplate;,unsupported
 Landroid/net/NetworkTemplate;->buildTemplateMobileAll(Ljava/lang/String;)Landroid/net/NetworkTemplate;,unsupported
@@ -2557,7 +2555,6 @@ Landroid/net/NetworkTemplate;->buildTemplateWifi(Ljava/lang/String;)Landroid/net
 Landroid/net/NetworkTemplate;->buildTemplateWifiWildcard()Landroid/net/NetworkTemplate;,unsupported
 Landroid/net/NetworkTemplate;->describeContents()I,public-api,sdk,system-api,test-api
 Landroid/net/NetworkTemplate;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/net/NetworkTemplate;->getMatchRule()I,unsupported
 Landroid/net/NetworkTemplate;->getMatchRuleName(I)Ljava/lang/String;,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->getNetworkId()Ljava/lang/String;,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->getSubscriberId()Ljava/lang/String;,unsupported
@@ -2569,19 +2566,16 @@ Landroid/net/NetworkTemplate;->mMatchRule:I,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->mMatchSubscriberIds:[Ljava/lang/String;,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->mMetered:I,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->mRoaming:I,lo-prio,max-target-o
-Landroid/net/NetworkTemplate;->mSubscriberId:Ljava/lang/String;,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matches(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matchesBluetooth(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matchesDefaultNetwork(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matchesEthernet(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matchesMetered(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matchesMobile(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
-Landroid/net/NetworkTemplate;->matchesMobileWildcard(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matchesProxy(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matchesRoaming(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matchesSubscriberId(Ljava/lang/String;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->matchesWifi(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
-Landroid/net/NetworkTemplate;->matchesWifiWildcard(Landroid/net/NetworkIdentity;)Z,lo-prio,max-target-o
 Landroid/net/NetworkTemplate;->normalize(Landroid/net/NetworkTemplate;[Ljava/lang/String;)Landroid/net/NetworkTemplate;,unsupported
 Landroid/net/NetworkTemplate;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/NetworkTemplate;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
@@ -2745,6 +2739,8 @@ Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda0;->run()V,core-platform-
 Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/SocketKeepalive$1$$ExternalSyntheticLambda5;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/SocketKeepalive$Callback;-><init>()V,public-api,sdk,system-api,test-api
 Landroid/net/SocketKeepalive$Callback;->onDataReceived()V,public-api,sdk,system-api,test-api
 Landroid/net/SocketKeepalive$Callback;->onError(I)V,public-api,sdk,system-api,test-api
@@ -3375,3 +3371,7 @@ Landroid/net/nsd/NsdServiceInfo;->setServiceName(Ljava/lang/String;)V,public-api
 Landroid/net/nsd/NsdServiceInfo;->setServiceType(Ljava/lang/String;)V,public-api,sdk,system-api,test-api
 Landroid/net/nsd/NsdServiceInfo;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/nsd/NsdServiceInfo;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
+Landroid/net/wear/ICompanionDeviceManagerProxy$Default;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
+Landroid/net/wear/ICompanionDeviceManagerProxy$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
+Landroid/net/wear/ICompanionDeviceManagerProxy$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
+Landroid/net/wear/ICompanionDeviceManagerProxy$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,sdk,system-api,test-api
