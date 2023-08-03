@@ -225,6 +225,7 @@ Landroid/nearby/PairStatusMetadata$1;->createFromParcel(Landroid/os/Parcel;)Ljav
 Landroid/nearby/PairStatusMetadata$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/nearby/PairStatusMetadata;->describeContents()I,public-api,sdk,system-api,test-api
 Landroid/nearby/PairStatusMetadata;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/nearby/PairStatusMetadata;->getStability()I,sdk,system-api,test-api
 Landroid/nearby/PairStatusMetadata;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/nearby/PairStatusMetadata;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/nearby/PairStatusMetadata;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
