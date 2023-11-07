@@ -405,6 +405,7 @@ Landroid/net/ConnectivityManager$5$$ExternalSyntheticLambda0;->run()V,core-platf
 Landroid/net/ConnectivityManager$5;->onReceiveResult(ILandroid/os/Bundle;)V,public-api,system-api,test-api
 Landroid/net/ConnectivityManager$6$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/ConnectivityManager$CallbackHandler;->handleMessage(Landroid/os/Message;)V,public-api,system-api,test-api
+Landroid/net/ConnectivityManager$DataSaverStatusTracker;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V,public-api,system-api,test-api
 Landroid/net/ConnectivityManager$LegacyRequest$1;->onAvailable(Landroid/net/Network;)V,public-api,system-api,test-api
 Landroid/net/ConnectivityManager$LegacyRequest$1;->onLost(Landroid/net/Network;)V,public-api,system-api,test-api
 Landroid/net/ConnectivityManager$NetworkCallback;-><init>()V,public-api,system-api,test-api
@@ -1920,7 +1921,6 @@ Landroid/net/connectivity/com/android/net/module/util/BestClock;->getZone()Ljava
 Landroid/net/connectivity/com/android/net/module/util/BestClock;->instant()Ljava/time/Instant;,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/BestClock;->millis()J,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/BestClock;->withZone(Ljava/time/ZoneId;)Ljava/time/Clock;,core-platform-api,public-api,system-api,test-api
-Landroid/net/connectivity/com/android/net/module/util/BpfMap;->close()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/DnsPacket$DnsHeader;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/DnsPacket$DnsHeader;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/com/android/net/module/util/DnsPacket$DnsHeader;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
