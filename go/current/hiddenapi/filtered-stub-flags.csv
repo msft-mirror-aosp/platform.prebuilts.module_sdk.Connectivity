@@ -957,6 +957,11 @@ Landroid/net/LinkProperties;->setUsePrivateDns(Z)V,system-api,test-api
 Landroid/net/LinkProperties;->setValidatedPrivateDnsServers(Ljava/util/Collection;)V,system-api,test-api
 Landroid/net/LinkProperties;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/net/LinkProperties;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
+Landroid/net/LocalNetworkInfo$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/net/LocalNetworkInfo$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/net/LocalNetworkInfo;->describeContents()I,public-api,system-api,test-api
+Landroid/net/LocalNetworkInfo;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Landroid/net/LocalNetworkInfo;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/net/MacAddress$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/net/MacAddress$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/net/MacAddress;->BROADCAST_ADDRESS:Landroid/net/MacAddress;,public-api,system-api,test-api
