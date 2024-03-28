@@ -14,6 +14,7 @@ android/nearby/NearbyDeviceParcelable
 android/nearby/NearbyFrameworkInitializer
 android/nearby/NearbyManager
 android/nearby/OffloadCapability
+android/nearby/PoweredOffFindingEphemeralId
 android/nearby/PresenceBroadcastRequest
 android/nearby/PresenceCredential
 android/nearby/PresenceDevice
@@ -64,11 +65,13 @@ android/net/IpSecManager
 android/net/IpSecSpiResponse
 android/net/IpSecTransform
 android/net/IpSecTransformResponse
+android/net/IpSecTransformState
 android/net/IpSecTunnelInterfaceResponse
 android/net/IpSecUdpEncapResponse
 android/net/KeepalivePacketData
 android/net/LinkAddress
 android/net/LinkProperties
+android/net/LocalNetworkInfo
 android/net/MacAddress
 android/net/NattKeepalivePacketData
 android/net/Network

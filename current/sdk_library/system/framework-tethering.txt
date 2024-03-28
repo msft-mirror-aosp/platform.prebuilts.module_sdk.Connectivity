@@ -95,13 +95,16 @@ package android.net {
     method public default void onUpstreamChanged(@Nullable android.net.Network);
   }
 
-  public static class TetheringManager.TetheringRequest {
+  public static final class TetheringManager.TetheringRequest implements android.os.Parcelable {
+    method public int describeContents();
     method @Nullable public android.net.LinkAddress getClientStaticIpv4Address();
     method public int getConnectivityScope();
     method @Nullable public android.net.LinkAddress getLocalIpv4Address();
     method public boolean getShouldShowEntitlementUi();
     method public int getTetheringType();
     method public boolean isExemptFromEntitlementCheck();
+    method public void writeToParcel(@NonNull android.os.Parcel, int);
+    field @NonNull public static final android.os.Parcelable.Creator<android.net.TetheringManager.TetheringRequest> CREATOR;
   }
 
   public static class TetheringManager.TetheringRequest.Builder {
