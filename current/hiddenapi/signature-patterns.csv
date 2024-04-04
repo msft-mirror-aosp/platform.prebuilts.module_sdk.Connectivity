@@ -64,11 +64,13 @@ android/net/IpSecManager
 android/net/IpSecSpiResponse
 android/net/IpSecTransform
 android/net/IpSecTransformResponse
+android/net/IpSecTransformState
 android/net/IpSecTunnelInterfaceResponse
 android/net/IpSecUdpEncapResponse
 android/net/KeepalivePacketData
 android/net/LinkAddress
 android/net/LinkProperties
+android/net/LocalNetworkInfo
 android/net/MacAddress
 android/net/NattKeepalivePacketData
 android/net/Network
