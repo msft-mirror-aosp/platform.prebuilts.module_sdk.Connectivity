@@ -139,10 +139,7 @@ android/net/http/CronetEngineBuilderWrapper
 android/net/http/CronetEngineWrapper
 android/net/http/CronetExceptionTranslationUtils
 android/net/http/CronetExceptionWrapper
-android/net/http/CronetLoggerImpl
-android/net/http/CronetStatsLog
 android/net/http/DnsOptions
-android/net/http/ExperimentalOptions
 android/net/http/HeaderBlock
 android/net/http/HeaderBlockWrapper
 android/net/http/HttpEngine
@@ -154,8 +151,6 @@ android/net/http/NetworkExceptionWrapper
 android/net/http/QuicException
 android/net/http/QuicExceptionWrapper
 android/net/http/QuicOptions
-android/net/http/RateLimiter
-android/net/http/SizeBuckets
 android/net/http/UploadDataProvider
 android/net/http/UploadDataProviderWrapper
 android/net/http/UploadDataSink

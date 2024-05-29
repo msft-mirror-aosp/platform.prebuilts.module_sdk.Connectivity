@@ -130,7 +130,13 @@ Landroid/nearby/NearbyManager$ScanListenerTransport$$ExternalSyntheticLambda0;->
 Landroid/nearby/NearbyManager$ScanListenerTransport$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/nearby/NearbyManager$ScanListenerTransport$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/nearby/NearbyManager$ScanListenerTransport$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/nearby/NearbyManager;->POWERED_OFF_FINDING_MODE_DISABLED:I,system-api,test-api
+Landroid/nearby/NearbyManager;->POWERED_OFF_FINDING_MODE_ENABLED:I,system-api,test-api
+Landroid/nearby/NearbyManager;->POWERED_OFF_FINDING_MODE_UNSUPPORTED:I,system-api,test-api
+Landroid/nearby/NearbyManager;->getPoweredOffFindingMode()I,system-api,test-api
 Landroid/nearby/NearbyManager;->queryOffloadCapability(Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V,system-api,test-api
+Landroid/nearby/NearbyManager;->setPoweredOffFindingEphemeralIds(Ljava/util/List;)V,system-api,test-api
+Landroid/nearby/NearbyManager;->setPoweredOffFindingMode(I)V,system-api,test-api
 Landroid/nearby/NearbyManager;->startBroadcast(Landroid/nearby/BroadcastRequest;Ljava/util/concurrent/Executor;Landroid/nearby/BroadcastCallback;)V,system-api,test-api
 Landroid/nearby/NearbyManager;->startScan(Landroid/nearby/ScanRequest;Ljava/util/concurrent/Executor;Landroid/nearby/ScanCallback;)I,system-api,test-api
 Landroid/nearby/NearbyManager;->stopBroadcast(Landroid/nearby/BroadcastCallback;)V,system-api,test-api
@@ -1822,6 +1828,7 @@ Landroid/net/apf/ApfCapabilities;->equals(Ljava/lang/Object;)Z,core-platform-api
 Landroid/net/apf/ApfCapabilities;->getApfDrop8023Frames()Z,system-api,test-api
 Landroid/net/apf/ApfCapabilities;->getApfEtherTypeBlackList()[I,system-api,test-api
 Landroid/net/apf/ApfCapabilities;->hasDataAccess()Z,system-api,test-api
+Landroid/net/apf/ApfCapabilities;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/net/apf/ApfCapabilities;->maximumApfProgramSize:I,system-api,test-api
 Landroid/net/apf/ApfCapabilities;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/net/apf/ApfCapabilities;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
@@ -1952,6 +1959,10 @@ Landroid/net/connectivity/android/net/nsd/IOffloadEngine$Default;->asBinder()Lan
 Landroid/net/connectivity/android/net/nsd/IOffloadEngine$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/connectivity/android/net/nsd/IOffloadEngine$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/connectivity/android/net/nsd/IOffloadEngine$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
+Landroid/net/connectivity/android/net/thread/ChannelMaxPower$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/net/connectivity/android/net/thread/ChannelMaxPower$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/net/connectivity/android/net/thread/ChannelMaxPower;->describeContents()I,public-api,system-api,test-api
+Landroid/net/connectivity/android/net/thread/ChannelMaxPower;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/net/connectivity/android/net/thread/IActiveOperationalDatasetReceiver$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/connectivity/android/net/thread/IActiveOperationalDatasetReceiver$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/net/connectivity/android/net/thread/IActiveOperationalDatasetReceiver$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
@@ -2369,7 +2380,6 @@ Landroid/net/connectivity/org/chromium/base/BundleUtils$1;->getClassLoader()Ljav
 Landroid/net/connectivity/org/chromium/base/BundleUtils$1;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/BundleUtils$SplitCompatClassLoader;->findClass(Ljava/lang/String;)Ljava/lang/Class;,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/Callback$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/net/connectivity/org/chromium/base/CallbackController$AutoCloseableLock;->close()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/CallbackController$CancelableRunnable;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/FeatureList$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/FeatureList$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
@@ -2405,6 +2415,9 @@ Landroid/net/connectivity/org/chromium/base/UnownedUserDataHost$$ExternalSynthet
 Landroid/net/connectivity/org/chromium/base/WrappedClassLoader;->findClass(Ljava/lang/String;)Ljava/lang/Class;,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/WrappedClassLoader;->findLibrary(Ljava/lang/String;)Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/compat/ApiHelperForQ$1;->onCellInfo(Ljava/util/List;)V,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/base/jank_tracker/FrameMetricsListener$DisplayListenerBackend;->onDisplayAdded(I)V,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/base/jank_tracker/FrameMetricsListener$DisplayListenerBackend;->onDisplayChanged(I)V,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/base/jank_tracker/FrameMetricsListener$DisplayListenerBackend;->onDisplayRemoved(I)V,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/jank_tracker/FrameMetricsListener;->onFrameMetricsAvailable(Landroid/view/Window;Landroid/view/FrameMetrics;I)V,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/jank_tracker/JankReportingRunnable$FinalReportingRunnable;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/jank_tracker/JankReportingRunnable;->run()V,core-platform-api,public-api,system-api,test-api
@@ -2434,8 +2447,8 @@ Landroid/net/connectivity/org/chromium/base/metrics/TimingMetric;->close()V,core
 Landroid/net/connectivity/org/chromium/base/supplier/ObservableSupplierImpl$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/supplier/ObservableSupplierImpl$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/task/AsyncTask$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/net/connectivity/org/chromium/base/task/AsyncTask$$ExternalSyntheticLambda1;->execute(Ljava/lang/Runnable;)V,core-platform-api,public-api,system-api,test-api
-Landroid/net/connectivity/org/chromium/base/task/AsyncTask$1;->call()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/base/task/AsyncTask$$ExternalSyntheticLambda1;->call()Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/base/task/AsyncTask$$ExternalSyntheticLambda2;->execute(Ljava/lang/Runnable;)V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/task/AsyncTask$NamedFutureTask;->done()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/task/AsyncTask$NamedFutureTask;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/task/AsyncTask$StealRunnableHandler;->rejectedExecution(Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V,core-platform-api,public-api,system-api,test-api
@@ -2444,7 +2457,7 @@ Landroid/net/connectivity/org/chromium/base/task/ChainedTasks$1;->run()V,core-pl
 Landroid/net/connectivity/org/chromium/base/task/ChromeThreadPoolExecutor$1;->newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/task/ChromeThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/task/PostTask$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/net/connectivity/org/chromium/base/task/SerialExecutor$1;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/base/task/SerialExecutor$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/task/SerialExecutor;->execute(Ljava/lang/Runnable;)V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/task/TaskRunnerImpl$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/AndroidNetworkLibrary$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
@@ -2508,7 +2521,7 @@ Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$4;->ru
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$5;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$OnReadCompletedRunnable;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$OnWriteCompletedRunnable;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/net/connectivity/org/chromium/net/impl/CronetLibraryLoader$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/net/impl/CronetLibraryLoader$1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetLogger$CronetVersion;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetLoggerFactory$SwapLoggerForTesting;->close()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetUploadDataStream$1;->run()V,core-platform-api,public-api,system-api,test-api
