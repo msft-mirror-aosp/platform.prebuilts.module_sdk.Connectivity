@@ -2043,7 +2043,6 @@ Landroid/net/NetworkCapabilities;->appliesToUid(I)Z,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;->appliesToUidRange(Landroid/net/UidRange;)Z,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;->capabilityNameOf(I)Ljava/lang/String;,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;->capabilityNamesOf([I)Ljava/lang/String;,lo-prio,max-target-o
-Landroid/net/NetworkCapabilities;->checkValidCapability(I)V,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;->checkValidTransportType(I)V,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;->clearAll()V,lo-prio,max-target-o
 Landroid/net/NetworkCapabilities;->describeContents()I,public-api,sdk,system-api,test-api
