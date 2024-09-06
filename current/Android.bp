@@ -6,13 +6,20 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+apex_contributions_defaults {
+    name: "tethering-module-sdk.contributions",
+    contents: [
+        "prebuilt_connectivity-platform-compat-config",
+        "prebuilt_framework-connectivity",
+        "prebuilt_framework-connectivity-t",
+        "prebuilt_framework-tethering",
+        "prebuilt_libcom.android.tethering.dns_helper",
+        "prebuilt_libnetd_updatable",
+    ],
+}
+
 prebuilt_bootclasspath_fragment {
     name: "com.android.tethering-bootclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
@@ -48,11 +55,6 @@ prebuilt_bootclasspath_fragment {
 
 prebuilt_platform_compat_config {
     name: "connectivity-platform-compat-config",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
     metadata: "compat_configs/connectivity-platform-compat-config/connectivity-platform-compat-config_meta.xml",
@@ -60,11 +62,6 @@ prebuilt_platform_compat_config {
 
 java_sdk_library_import {
     name: "framework-connectivity",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
@@ -98,11 +95,6 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "framework-connectivity-t",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
@@ -143,11 +135,6 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "framework-tethering",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
@@ -181,11 +168,6 @@ java_sdk_library_import {
 
 java_import {
     name: "service-connectivity",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
@@ -202,11 +184,6 @@ license {
 
 cc_prebuilt_library_shared {
     name: "libcom.android.tethering.dns_helper",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
@@ -239,11 +216,6 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnetd_updatable",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
@@ -276,11 +248,6 @@ cc_prebuilt_library_shared {
 
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.tethering-systemserverclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
