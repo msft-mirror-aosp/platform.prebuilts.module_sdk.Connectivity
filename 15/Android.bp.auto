@@ -187,6 +187,7 @@ cc_prebuilt_library_shared {
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
+    stl: "none",
     compile_multilib: "both",
     export_include_dirs: ["include/packages/modules/Connectivity/DnsResolver/include"],
     sanitize: {
@@ -197,6 +198,7 @@ cc_prebuilt_library_shared {
             "1",
             "current",
         ],
+        symbol_file: "libcom.android.tethering.dns_helper.map.txt",
     },
     arch: {
         arm64: {
@@ -212,6 +214,9 @@ cc_prebuilt_library_shared {
             srcs: ["x86/lib/libcom.android.tethering.dns_helper.so"],
         },
     },
+    strip: {
+        none: true,
+    },
 }
 
 cc_prebuilt_library_shared {
@@ -219,8 +224,9 @@ cc_prebuilt_library_shared {
     visibility: ["//visibility:public"],
     apex_available: ["com.android.tethering"],
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
+    stl: "none",
     compile_multilib: "both",
-    export_include_dirs: ["include/packages/modules/Connectivity/netd/include"],
+    export_include_dirs: ["include/packages/modules/Connectivity/bpf/netd/include"],
     sanitize: {
         cfi: true,
     },
@@ -229,6 +235,7 @@ cc_prebuilt_library_shared {
             "1",
             "current",
         ],
+        symbol_file: "libnetd_updatable.map.txt",
     },
     arch: {
         arm64: {
@@ -243,6 +250,9 @@ cc_prebuilt_library_shared {
         x86: {
             srcs: ["x86/lib/libnetd_updatable.so"],
         },
+    },
+    strip: {
+        none: true,
     },
 }
 
