@@ -212,6 +212,9 @@ cc_prebuilt_library_shared {
             srcs: ["x86/lib/libcom.android.tethering.dns_helper.so"],
         },
     },
+    strip: {
+        none: true,
+    },
 }
 
 cc_prebuilt_library_shared {
@@ -243,6 +246,9 @@ cc_prebuilt_library_shared {
         x86: {
             srcs: ["x86/lib/libnetd_updatable.so"],
         },
+    },
+    strip: {
+        none: true,
     },
 }
 
