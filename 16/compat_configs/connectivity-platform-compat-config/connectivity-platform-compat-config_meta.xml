@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config>
+  <compat-change enableAfterTargetSdk="32" id="186082280" name="EXCLUDED_ROUTES">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:39" />
+  </compat-change>
+  <compat-change enableSinceTargetSdk="31" id="235355681" name="RUN_NATIVE_NSD_ONLY_IF_LEGACY_APPS_T_AND_LATER">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:60" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="33" id="266524688" name="ENABLE_SELF_CERTIFIED_CAPABILITIES_DECLARATION">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:72" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="33" id="270306772" name="ENABLE_PLATFORM_MDNS_BACKEND">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:84" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="34" id="319212206" name="ENABLE_MATCH_LOCAL_NETWORK">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:98" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="35" id="333340911" name="NETWORK_BLOCKED_WITHOUT_INTERNET_PERMISSION">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:120" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="34" id="74210811" name="ENABLE_TRAFFICSTATS_RATE_LIMIT_CACHE">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:134" />
+  </compat-change>
+</config>
