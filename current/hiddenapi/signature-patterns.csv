@@ -162,6 +162,7 @@ android/net/http/UrlRequestWrapper
 android/net/http/UrlResponseInfo
 android/net/http/UrlResponseInfoWrapper
 android/net/http/apihelpers/**
+android/net/http/internal/**
 android/net/netstats/provider/**
 android/net/nsd/**
 android/net/thread/**
