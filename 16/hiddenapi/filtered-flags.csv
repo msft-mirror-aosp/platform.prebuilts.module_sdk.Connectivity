@@ -2949,6 +2949,9 @@ Landroid/net/TetheringRequestParcel$1;->createFromParcel(Landroid/os/Parcel;)Lja
 Landroid/net/TetheringRequestParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/net/TetheringRequestParcel;->describeContents()I,public-api,sdk,system-api,test-api
 Landroid/net/TetheringRequestParcel;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
+Landroid/net/TrafficStats$$ExternalSyntheticLambda3;->getAsLong()J,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/TrafficStats$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/TrafficStats$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/TrafficStats$1;->initialValue()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/TrafficStats$SocketTagger;->tag(Ljava/io/FileDescriptor;)V,blocked,core-platform-api
 Landroid/net/TrafficStats$SocketTagger;->untag(Ljava/io/FileDescriptor;)V,blocked,core-platform-api
