@@ -102,7 +102,6 @@ android/net/QosFilter
 android/net/QosSession
 android/net/QosSocketInfo
 android/net/RouteInfo
-android/net/RoutingCoordinatorManager
 android/net/SocketKeepalive
 android/net/SocketLocalAddressChangedException
 android/net/SocketNotBoundException
