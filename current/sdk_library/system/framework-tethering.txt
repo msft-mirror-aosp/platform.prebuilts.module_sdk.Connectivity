@@ -101,6 +101,7 @@ package android.net {
     method public int getConnectivityScope();
     method @Nullable public android.net.LinkAddress getLocalIpv4Address();
     method public boolean getShouldShowEntitlementUi();
+    method @Nullable public android.net.wifi.SoftApConfiguration getSoftApConfiguration();
     method public int getTetheringType();
     method public boolean isExemptFromEntitlementCheck();
     method public void writeToParcel(@NonNull android.os.Parcel, int);
@@ -113,6 +114,7 @@ package android.net {
     method @NonNull @RequiresPermission(android.Manifest.permission.TETHER_PRIVILEGED) public android.net.TetheringManager.TetheringRequest.Builder setConnectivityScope(int);
     method @NonNull @RequiresPermission(android.Manifest.permission.TETHER_PRIVILEGED) public android.net.TetheringManager.TetheringRequest.Builder setExemptFromEntitlementCheck(boolean);
     method @NonNull @RequiresPermission(android.Manifest.permission.TETHER_PRIVILEGED) public android.net.TetheringManager.TetheringRequest.Builder setShouldShowEntitlementUi(boolean);
+    method @NonNull @RequiresPermission(android.Manifest.permission.TETHER_PRIVILEGED) public android.net.TetheringManager.TetheringRequest.Builder setSoftApConfiguration(@Nullable android.net.wifi.SoftApConfiguration);
     method @NonNull @RequiresPermission(android.Manifest.permission.TETHER_PRIVILEGED) public android.net.TetheringManager.TetheringRequest.Builder setStaticIpv4Addresses(@NonNull android.net.LinkAddress, @NonNull android.net.LinkAddress);
   }
 
