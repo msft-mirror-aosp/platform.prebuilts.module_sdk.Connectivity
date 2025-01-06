@@ -226,7 +226,7 @@ cc_prebuilt_library_shared {
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
     stl: "none",
     compile_multilib: "both",
-    export_include_dirs: ["include/packages/modules/Connectivity/netd/include"],
+    export_include_dirs: ["include/packages/modules/Connectivity/bpf/netd/include"],
     sanitize: {
         cfi: true,
     },
