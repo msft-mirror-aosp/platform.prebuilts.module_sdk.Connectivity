@@ -66,11 +66,11 @@ signature,implicitMember,maxTargetSdk,overrideSourcePosition,publicAlternatives,
 |Landroid/net/IConnectivityManager;->getTetheredIfaces()[Ljava/lang/String;|,||,|29|,|packages/modules/Connectivity/framework/src/android/net/IConnectivityManager.aidl:107:1:108:98|,|Use {@code TetheringManager#getTetheredIfaces} as alternative|,||
 |Landroid/net/IConnectivityManager;->getTetheringErroredIfaces()[Ljava/lang/String;|,||,|29|,|packages/modules/Connectivity/framework/src/android/net/IConnectivityManager.aidl:111:1:113:32|,|Use {@code TetheringManager#getTetheringErroredIfaces} as Alternative|,||
 |Landroid/net/IConnectivityManager;->reportInetCondition(II)V|,||,|28|,|packages/modules/Connectivity/framework/src/android/net/IConnectivityManager.aidl:124:1:124:44|,||,||
-|Landroid/net/INetworkStatsService;->forceUpdate()V|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:70:1:70:25|,||,||
-|Landroid/net/INetworkStatsService;->getDataLayerSnapshotForUid(I)Landroid/net/NetworkStats;|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:50:1:50:25|,||,||
-|Landroid/net/INetworkStatsService;->getMobileIfaces()[Ljava/lang/String;|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:57:1:57:25|,||,||
-|Landroid/net/INetworkStatsService;->openSession()Landroid/net/INetworkStatsSession;|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:37:1:37:25|,||,||
-|Landroid/net/INetworkStatsService;->openSessionForUsageStats(ILjava/lang/String;)Landroid/net/INetworkStatsSession;|,||,|30|,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:46:1:46:69|,||,|170729553|
+|Landroid/net/INetworkStatsService;->forceUpdate()V|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:71:1:71:25|,||,||
+|Landroid/net/INetworkStatsService;->getDataLayerSnapshotForUid(I)Landroid/net/NetworkStats;|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:51:1:51:25|,||,||
+|Landroid/net/INetworkStatsService;->getMobileIfaces()[Ljava/lang/String;|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:58:1:58:25|,||,||
+|Landroid/net/INetworkStatsService;->openSession()Landroid/net/INetworkStatsSession;|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:38:1:38:25|,||,||
+|Landroid/net/INetworkStatsService;->openSessionForUsageStats(ILjava/lang/String;)Landroid/net/INetworkStatsSession;|,||,|30|,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsService.aidl:47:1:47:69|,||,|170729553|
 |Landroid/net/INetworkStatsSession;->close()V|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsSession.aidl:67:1:67:25|,||,||
 |Landroid/net/INetworkStatsSession;->getHistoryForNetwork(Landroid/net/NetworkTemplate;I)Landroid/net/NetworkStatsHistory;|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsSession.aidl:33:1:33:25|,||,||
 |Landroid/net/INetworkStatsSession;->getHistoryForUid(Landroid/net/NetworkTemplate;IIII)Landroid/net/NetworkStatsHistory;|,||,||,|packages/modules/Connectivity/framework-t/src/android/net/INetworkStatsSession.aidl:59:1:59:25|,||,||
@@ -205,4 +205,24 @@ signature,implicitMember,maxTargetSdk,overrideSourcePosition,publicAlternatives,
 |Landroid/net/TrafficStats;->getMobileTcpRxPackets()J|,||,|30|,||,||,|170729553|
 |Landroid/net/TrafficStats;->getMobileTcpTxPackets()J|,||,|30|,||,||,|170729553|
 |Landroid/net/TrafficStats;->getStatsService()Landroid/net/INetworkStatsService;|,||,|28|,||,||,|130143562|
+|Landroid/net/http/CustomFeatureFlags;->preloadHttpengineInZygote()Z|,||,||,||,||,||
+|Landroid/net/http/CustomFeatureFlags;->preloadHttpengineJavaImplClasses()Z|,||,||,||,||,||
+|Landroid/net/http/CustomFeatureFlags;->preloadHttpengineSharedLibrary()Z|,||,||,||,||,||
+|Landroid/net/http/FeatureFlags;->preloadHttpengineInZygote()Z|,||,||,||,||,||
+|Landroid/net/http/FeatureFlags;->preloadHttpengineJavaImplClasses()Z|,||,||,||,||,||
+|Landroid/net/http/FeatureFlags;->preloadHttpengineSharedLibrary()Z|,||,||,||,||,||
+|Landroid/net/http/FeatureFlagsImpl;->preloadHttpengineInZygote()Z|,||,||,||,||,||
+|Landroid/net/http/FeatureFlagsImpl;->preloadHttpengineJavaImplClasses()Z|,||,||,||,||,||
+|Landroid/net/http/FeatureFlagsImpl;->preloadHttpengineSharedLibrary()Z|,||,||,||,||,||
+|Landroid/net/http/Flags;->preloadHttpengineInZygote()Z|,||,||,||,||,||
+|Landroid/net/http/Flags;->preloadHttpengineJavaImplClasses()Z|,||,||,||,||,||
+|Landroid/net/http/Flags;->preloadHttpengineSharedLibrary()Z|,||,||,||,||,||
 |Landroid/net/nsd/NsdServiceInfo;->setAttribute(Ljava/lang/String;[B)V|,||,||,||,||,||
+|Landroid/net/vcn/CustomFeatureFlags;->mainlineVcnModuleApi()Z|,||,||,||,||,||
+|Landroid/net/vcn/CustomFeatureFlags;->safeModeConfig()Z|,||,||,||,||,||
+|Landroid/net/vcn/FeatureFlags;->mainlineVcnModuleApi()Z|,||,||,||,||,||
+|Landroid/net/vcn/FeatureFlags;->safeModeConfig()Z|,||,||,||,||,||
+|Landroid/net/vcn/FeatureFlagsImpl;->mainlineVcnModuleApi()Z|,||,||,||,||,||
+|Landroid/net/vcn/FeatureFlagsImpl;->safeModeConfig()Z|,||,||,||,||,||
+|Landroid/net/vcn/Flags;->mainlineVcnModuleApi()Z|,||,||,||,||,||
+|Landroid/net/vcn/Flags;->safeModeConfig()Z|,||,||,||,||,||
