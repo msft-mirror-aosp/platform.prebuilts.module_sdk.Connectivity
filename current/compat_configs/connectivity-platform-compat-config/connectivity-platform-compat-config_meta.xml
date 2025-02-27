@@ -21,7 +21,7 @@
   <compat-change enableAfterTargetSdk="34" id="74210811" name="ENABLE_TRAFFICSTATS_RATE_LIMIT_CACHE">
     <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:134" />
   </compat-change>
-  <compat-change enableSinceTargetSdk="10000" id="365139289" name="RESTRICT_LOCAL_NETWORK">
+  <compat-change enableAfterTargetSdk="10000" id="365139289" name="RESTRICT_LOCAL_NETWORK">
     <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:145" />
   </compat-change>
 </config>
