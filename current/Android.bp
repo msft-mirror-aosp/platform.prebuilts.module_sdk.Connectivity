@@ -13,6 +13,7 @@ apex_contributions_defaults {
         "prebuilt_framework-connectivity",
         "prebuilt_framework-connectivity-t",
         "prebuilt_framework-tethering",
+        "prebuilt_framework-connectivity-b",
         "prebuilt_libcom.android.tethering.dns_helper",
         "prebuilt_libnetd_updatable",
     ],
@@ -27,6 +28,7 @@ prebuilt_bootclasspath_fragment {
         "framework-connectivity",
         "framework-connectivity-t",
         "framework-tethering",
+        "framework-connectivity-b",
     ],
     fragments: [
         {
@@ -166,6 +168,43 @@ java_sdk_library_import {
     },
 }
 
+java_sdk_library_import {
+    name: "framework-connectivity-b",
+    visibility: ["//visibility:public"],
+    apex_available: ["com.android.tethering"],
+    licenses: ["tethering-module-sdk_Android-Apache-2.0"],
+    shared_library: false,
+    permitted_packages: [
+        "android.net",
+        "android.net.vcn",
+        "com.android.server.vcn.util",
+    ],
+    public: {
+        jars: ["sdk_library/public/framework-connectivity-b-stubs.jar"],
+        stub_srcs: ["sdk_library/public/framework-connectivity-b.srcjar"],
+        current_api: "sdk_library/public/framework-connectivity-b.txt",
+        removed_api: "sdk_library/public/framework-connectivity-b-removed.txt",
+        annotations: "sdk_library/public/framework-connectivity-b_annotations.zip",
+        sdk_version: "module_current",
+    },
+    system: {
+        jars: ["sdk_library/system/framework-connectivity-b-stubs.jar"],
+        stub_srcs: ["sdk_library/system/framework-connectivity-b.srcjar"],
+        current_api: "sdk_library/system/framework-connectivity-b.txt",
+        removed_api: "sdk_library/system/framework-connectivity-b-removed.txt",
+        annotations: "sdk_library/system/framework-connectivity-b_annotations.zip",
+        sdk_version: "module_current",
+    },
+    module_lib: {
+        jars: ["sdk_library/module-lib/framework-connectivity-b-stubs.jar"],
+        stub_srcs: ["sdk_library/module-lib/framework-connectivity-b.srcjar"],
+        current_api: "sdk_library/module-lib/framework-connectivity-b.txt",
+        removed_api: "sdk_library/module-lib/framework-connectivity-b-removed.txt",
+        annotations: "sdk_library/module-lib/framework-connectivity-b_annotations.zip",
+        sdk_version: "module_current",
+    },
+}
+
 java_import {
     name: "service-connectivity",
     visibility: ["//visibility:public"],
@@ -189,7 +228,7 @@ cc_prebuilt_library_shared {
     licenses: ["tethering-module-sdk_Android-Apache-2.0"],
     stl: "none",
     compile_multilib: "both",
-    export_include_dirs: ["include/packages/modules/Connectivity/DnsResolver/include"],
+    export_include_dirs: ["include/packages/modules/Connectivity/bpf/dns_helper/include"],
     sanitize: {
         cfi: true,
     },
