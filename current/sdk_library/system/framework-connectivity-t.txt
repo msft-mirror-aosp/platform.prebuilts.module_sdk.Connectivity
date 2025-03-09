@@ -310,6 +310,7 @@ package android.net {
   public final class NetworkStats implements java.lang.Iterable<android.net.NetworkStats.Entry> android.os.Parcelable {
     ctor public NetworkStats(long, int);
     method @NonNull public android.net.NetworkStats add(@NonNull android.net.NetworkStats);
+    method @NonNull public android.net.NetworkStats addEntries(@NonNull java.util.List<android.net.NetworkStats.Entry>);
     method @NonNull public android.net.NetworkStats addEntry(@NonNull android.net.NetworkStats.Entry);
     method public android.net.NetworkStats clone();
     method public int describeContents();
@@ -514,6 +515,7 @@ package android.net.thread {
     field public static final int DEVICE_ROLE_LEADER = 4; // 0x4
     field public static final int DEVICE_ROLE_ROUTER = 3; // 0x3
     field public static final int DEVICE_ROLE_STOPPED = 0; // 0x0
+    field public static final int MAX_POWER_CHANNEL_DISABLED = -2147483648; // 0x80000000
     field public static final int STATE_DISABLED = 0; // 0x0
     field public static final int STATE_DISABLING = 2; // 0x2
     field public static final int STATE_ENABLED = 1; // 0x1
@@ -546,6 +548,7 @@ package android.net.thread {
     field public static final int ERROR_UNAVAILABLE = 4; // 0x4
     field public static final int ERROR_UNKNOWN = 11; // 0xb
     field public static final int ERROR_UNSUPPORTED_CHANNEL = 7; // 0x7
+    field public static final int ERROR_UNSUPPORTED_FEATURE = 13; // 0xd
   }
 
   public final class ThreadNetworkManager {
