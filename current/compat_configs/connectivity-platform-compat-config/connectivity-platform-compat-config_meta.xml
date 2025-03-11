@@ -15,13 +15,13 @@
   <compat-change enableAfterTargetSdk="34" id="319212206" name="ENABLE_MATCH_LOCAL_NETWORK">
     <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:98" />
   </compat-change>
-  <compat-change enableAfterTargetSdk="35" id="333340911" name="NETWORK_BLOCKED_WITHOUT_INTERNET_PERMISSION">
-    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:120" />
+  <compat-change enableAfterTargetSdk="36" id="333340911" name="NETWORK_BLOCKED_WITHOUT_INTERNET_PERMISSION">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:122" />
   </compat-change>
   <compat-change enableAfterTargetSdk="34" id="74210811" name="ENABLE_TRAFFICSTATS_RATE_LIMIT_CACHE">
-    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:134" />
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:136" />
   </compat-change>
   <compat-change enableAfterTargetSdk="10000" id="365139289" name="RESTRICT_LOCAL_NETWORK">
-    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:145" />
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:147" />
   </compat-change>
 </config>
