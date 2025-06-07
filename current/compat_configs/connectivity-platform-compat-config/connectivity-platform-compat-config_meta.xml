@@ -16,15 +16,15 @@
     <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:99" />
   </compat-change>
   <compat-change enableAfterTargetSdk="36" id="333340911" name="NETWORK_BLOCKED_WITHOUT_INTERNET_PERMISSION">
-    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:123" />
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:125" />
   </compat-change>
   <compat-change enableAfterTargetSdk="34" id="74210811" name="ENABLE_TRAFFICSTATS_RATE_LIMIT_CACHE">
-    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:137" />
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:139" />
   </compat-change>
   <compat-change disabled="true" id="365139289" name="RESTRICT_LOCAL_NETWORK">
-    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:148" />
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:150" />
   </compat-change>
   <compat-change enableAfterTargetSdk="35" id="349487600" name="ENABLE_MATCH_NON_THREAD_LOCAL_NETWORKS">
-    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:159" />
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:161" />
   </compat-change>
 </config>
