@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config>
+  <compat-change enableAfterTargetSdk="32" id="186082280" name="EXCLUDED_ROUTES">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:40" />
+  </compat-change>
+  <compat-change enableSinceTargetSdk="31" id="235355681" name="RUN_NATIVE_NSD_ONLY_IF_LEGACY_APPS_T_AND_LATER">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:61" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="33" id="266524688" name="ENABLE_SELF_CERTIFIED_CAPABILITIES_DECLARATION">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:73" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="33" id="270306772" name="ENABLE_PLATFORM_MDNS_BACKEND">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:85" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="34" id="319212206" name="ENABLE_MATCH_LOCAL_NETWORK">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:99" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="36" id="333340911" name="NETWORK_BLOCKED_WITHOUT_INTERNET_PERMISSION">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:125" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="34" id="74210811" name="ENABLE_TRAFFICSTATS_RATE_LIMIT_CACHE">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:139" />
+  </compat-change>
+  <compat-change disabled="true" id="365139289" name="RESTRICT_LOCAL_NETWORK">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:150" />
+  </compat-change>
+  <compat-change enableAfterTargetSdk="35" id="349487600" name="ENABLE_MATCH_NON_THREAD_LOCAL_NETWORKS">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" sourcePosition="packages/modules/Connectivity/framework/src/android/net/connectivity/ConnectivityCompatChanges.java:161" />
+  </compat-change>
+</config>
