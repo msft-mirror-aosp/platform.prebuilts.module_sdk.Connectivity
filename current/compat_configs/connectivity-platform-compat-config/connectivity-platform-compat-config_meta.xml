@@ -24,7 +24,7 @@
   <compat-change disabled="true" id="365139289" name="RESTRICT_LOCAL_NETWORK">
     <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" />
   </compat-change>
-  <compat-change enableAfterTargetSdk="35" id="349487600" name="ENABLE_MATCH_NON_THREAD_LOCAL_NETWORKS">
+  <compat-change enableAfterTargetSdk="36" id="349487600" name="ENABLE_MATCH_NON_THREAD_LOCAL_NETWORKS">
     <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" />
   </compat-change>
 </config>
