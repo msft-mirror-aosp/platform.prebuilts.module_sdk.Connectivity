@@ -3287,12 +3287,12 @@ Landroid/net/connectivity/android/net/nsd/IOffloadEngine$Default;->asBinder()Lan
 Landroid/net/connectivity/android/net/nsd/IOffloadEngine$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/nsd/IOffloadEngine$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/nsd/IOffloadEngine$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,sdk,system-api,test-api
-Landroid/net/connectivity/android/net/platform/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/platform/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/platform/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/platform/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/platform/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/platform/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/connectivity/android/net/platform/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/thread/ChannelMaxPower$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/thread/ChannelMaxPower$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/net/connectivity/android/net/thread/ChannelMaxPower;->describeContents()I,public-api,sdk,system-api,test-api
