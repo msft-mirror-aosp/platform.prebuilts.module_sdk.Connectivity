@@ -2527,6 +2527,7 @@ Landroid/net/connectivity/org/chromium/base/CancelableRunnable;->run()V,core-pla
 Landroid/net/connectivity/org/chromium/base/CommandLine$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/ContextUtils$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/DeviceInfo$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/base/DeviceInfo$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/FeatureList$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/FeatureOverrides$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/base/FeatureParam$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
@@ -2725,11 +2726,14 @@ Landroid/net/connectivity/org/chromium/net/impl/AndroidUrlRequestCallbackWrapper
 Landroid/net/connectivity/org/chromium/net/impl/AndroidUrlRequestStatusListenerWrapper;->onStatus(I)V,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$$ExternalSyntheticLambda5;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$2;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$3;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$4;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$5;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$OnReadCompletedRunnable;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetBidirectionalStream$OnWriteCompletedRunnable;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/net/connectivity/org/chromium/net/impl/CronetLibraryLoader$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
