@@ -4344,6 +4344,8 @@ Landroid/net/http/internal/org/chromium/base/supplier/ObservableSupplierImpl$$Ex
 Landroid/net/http/internal/org/chromium/base/supplier/ObservableSupplierImpl;->get()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/base/supplier/OneshotSupplierImpl;->get()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/base/supplier/SupplierUtils$$ExternalSyntheticLambda0;->get()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/http/internal/org/chromium/base/supplier/SupplierUtils$$ExternalSyntheticLambda1;->get()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/http/internal/org/chromium/base/supplier/SupplierUtils$$ExternalSyntheticLambda2;->get()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/base/supplier/SyncOneshotSupplierImpl;->get()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/base/supplier/TransitiveObservableSupplier;->get()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/base/supplier/UnwrapObservableSupplier;->get()Ljava/lang/Object;,core-platform-api,public-api,sdk,system-api,test-api
@@ -4385,6 +4387,9 @@ Landroid/net/http/internal/org/chromium/net/AndroidNetworkLibrary$SocketFd$Socke
 Landroid/net/http/internal/org/chromium/net/AndroidNetworkLibrary$SocketFd$SocketImplFd;->listen(I)V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/AndroidNetworkLibrary$SocketFd$SocketImplFd;->sendUrgentData(I)V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/AndroidNetworkLibrary$SocketFd$SocketImplFd;->setOption(ILjava/lang/Object;)V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/http/internal/org/chromium/net/AndroidProxyHttpConnectCallback;->onBeforeRequest(Landroid/net/http/Proxy$HttpConnectCallback$Request;)V,public-api,sdk,system-api,test-api
+Landroid/net/http/internal/org/chromium/net/AndroidProxyHttpConnectCallback;->onResponseReceived(Ljava/util/List;I)I,public-api,sdk,system-api,test-api
+Landroid/net/http/internal/org/chromium/net/AndroidProxyHttpConnectCallbackRequest;->close()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/CronetEngine$Builder$1;->compare(Ljava/lang/Object;Ljava/lang/Object;)I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/CronetProvider$ProviderInfo;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/CronetProvider$ProviderInfo;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
@@ -4437,9 +4442,6 @@ Landroid/net/http/internal/org/chromium/net/impl/AndroidBidirectionalStreamCallb
 Landroid/net/http/internal/org/chromium/net/impl/AndroidHttpEngineWrapper$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/AndroidOsBuild$WithOverrideForTesting;->close()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/AndroidOsSystemProperties$WithOverridesForTesting;->close()V,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/net/http/internal/org/chromium/net/impl/AndroidProxyHttpConnectCallback;->onBeforeRequest(Landroid/net/http/Proxy$HttpConnectCallback$Request;)V,public-api,sdk,system-api,test-api
-Landroid/net/http/internal/org/chromium/net/impl/AndroidProxyHttpConnectCallback;->onResponseReceived(Ljava/util/List;I)I,public-api,sdk,system-api,test-api
-Landroid/net/http/internal/org/chromium/net/impl/AndroidProxyHttpConnectCallbackRequest;->close()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/AndroidUploadDataProviderWrapper;->close()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/AndroidUploadDataProviderWrapper;->getLength()J,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/AndroidUploadDataProviderWrapper;->read(Landroid/net/http/UploadDataSink;Ljava/nio/ByteBuffer;)V,public-api,sdk,system-api,test-api
@@ -4452,6 +4454,7 @@ Landroid/net/http/internal/org/chromium/net/impl/AndroidUrlRequestCallbackWrappe
 Landroid/net/http/internal/org/chromium/net/impl/AndroidUrlRequestCallbackWrapper;->onSucceeded(Landroid/net/http/UrlRequest;Landroid/net/http/UrlResponseInfo;)V,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/AndroidUrlRequestStatusListenerWrapper;->onStatus(I)V,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/CompletionOnceCallback;->close()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/net/http/internal/org/chromium/net/impl/CronetAdaptiveNetworkBidirectionalStream$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/CronetBidirectionalStream$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/CronetBidirectionalStream$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/net/http/internal/org/chromium/net/impl/CronetBidirectionalStream$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
