@@ -15,7 +15,7 @@
   <compat-change enableAfterTargetSdk="34" id="319212206" name="ENABLE_MATCH_LOCAL_NETWORK">
     <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" />
   </compat-change>
-  <compat-change enableAfterTargetSdk="10000" id="333340911" name="NETWORK_BLOCKED_WITHOUT_INTERNET_PERMISSION">
+  <compat-change enableAfterTargetSdk="37" id="333340911" name="NETWORK_BLOCKED_WITHOUT_INTERNET_PERMISSION">
     <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" />
   </compat-change>
   <compat-change enableAfterTargetSdk="34" id="74210811" name="ENABLE_TRAFFICSTATS_RATE_LIMIT_CACHE">
