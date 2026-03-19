@@ -204,4 +204,3 @@ Landroid/net/TrafficStats;->getMobileIfaces()[Ljava/lang/String;,max-target-p
 Landroid/net/TrafficStats;->getMobileTcpRxPackets()J,max-target-r
 Landroid/net/TrafficStats;->getMobileTcpTxPackets()J,max-target-r
 Landroid/net/TrafficStats;->getStatsService()Landroid/net/INetworkStatsService;,max-target-p
-Landroid/net/nsd/NsdServiceInfo;->setAttribute(Ljava/lang/String;[B)V,unsupported
