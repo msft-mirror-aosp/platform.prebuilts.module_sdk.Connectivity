@@ -200,6 +200,7 @@ Landroid/net/TrafficStats;->getStatsService()Landroid/net/INetworkStatsService;,
 Landroid/net/TrafficStats;->getMobileTcpRxPackets()J,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/TrafficStats;->getMobileTcpTxPackets()J,maxTargetSdk=30&trackingBug=170729553L
 Landroid/net/TrafficStats;->getMobileIfaces()[Ljava/lang/String;,maxTargetSdk=28&trackingBug=130143562L
+Landroid/net/nsd/NsdServiceInfo;->setAttribute(Ljava/lang/String;[B)V,
 Lcom/android/internal/util/Preconditions;->checkArgument(Z)V,
 Lcom/android/internal/util/Preconditions;->checkArgument(ZLjava/lang/Object;)V,maxTargetSdk=30&trackingBug=170729553L
 Lcom/android/internal/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;,
