@@ -27,6 +27,7 @@ android/nearby/ScanRequest
 android/nearby/aidl/**
 android/net/CaptivePortal
 android/net/CaptivePortalData
+android/net/ConnectivityCallListenerService
 android/net/ConnectivityDiagnosticsManager
 android/net/ConnectivityFrameworkInitializer
 android/net/ConnectivityFrameworkInitializerBaklava
@@ -129,6 +130,7 @@ android/net/UnderlyingNetworkInfo
 android/net/VpnTransportInfo
 android/net/apf/**
 android/net/connectivity/**
+android/net/dns/**
 android/net/http/BidirectionalStream
 android/net/http/BidirectionalStreamBuilderWrapper
 android/net/http/BidirectionalStreamCallbackWrapper
@@ -136,15 +138,10 @@ android/net/http/BidirectionalStreamWrapper
 android/net/http/CallbackException
 android/net/http/CallbackExceptionWrapper
 android/net/http/ConnectionMigrationOptions
-android/net/http/CronetEngineBuilderWrapper
 android/net/http/CronetEngineWrapper
 android/net/http/CronetExceptionTranslationUtils
 android/net/http/CronetExceptionWrapper
-android/net/http/CustomFeatureFlags
 android/net/http/DnsOptions
-android/net/http/FakeFeatureFlagsImpl
-android/net/http/FeatureFlags
-android/net/http/FeatureFlagsImpl
 android/net/http/Flags
 android/net/http/HeaderBlock
 android/net/http/HeaderBlockImpl
@@ -152,10 +149,11 @@ android/net/http/HeaderBlockWrapper
 android/net/http/HttpEngine
 android/net/http/HttpEngineJavaClasses
 android/net/http/HttpException
-android/net/http/IHttpEngineBuilder
 android/net/http/InlineExecutionProhibitedException
 android/net/http/NetworkException
 android/net/http/NetworkExceptionWrapper
+android/net/http/Proxy
+android/net/http/ProxyOptions
 android/net/http/QuicException
 android/net/http/QuicExceptionWrapper
 android/net/http/QuicOptions
@@ -176,10 +174,6 @@ android/net/netstats/provider/**
 android/net/nsd/**
 android/net/thread/**
 android/net/util/KeepaliveUtils
-android/net/vcn/CustomFeatureFlags
-android/net/vcn/FakeFeatureFlagsImpl
-android/net/vcn/FeatureFlags
-android/net/vcn/FeatureFlagsImpl
 android/net/vcn/Flags
 android/net/vcn/IVcnManagementService
 android/net/vcn/IVcnStatusCallback
