@@ -205,3 +205,4 @@ signature,implicitMember,maxTargetSdk,overrideSourcePosition,publicAlternatives,
 |Landroid/net/TrafficStats;->getMobileTcpRxPackets()J|,||,|30|,||,||,|170729553|
 |Landroid/net/TrafficStats;->getMobileTcpTxPackets()J|,||,|30|,||,||,|170729553|
 |Landroid/net/TrafficStats;->getStatsService()Landroid/net/INetworkStatsService;|,||,|28|,||,||,|130143562|
+|Landroid/net/nsd/NsdServiceInfo;->setAttribute(Ljava/lang/String;[B)V|,||,||,||,||,||
