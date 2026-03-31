@@ -27,4 +27,7 @@
   <compat-change enableAfterTargetSdk="36" id="349487600" name="ENABLE_MATCH_NON_THREAD_LOCAL_NETWORKS">
     <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" />
   </compat-change>
+  <compat-change enableAfterTargetSdk="36" id="490596785" name="USE_NSD_PICKER_WHEN_NO_LOCAL_NET_PERMISSION">
+    <meta-data definedIn="android.net.connectivity.ConnectivityCompatChanges" />
+  </compat-change>
 </config>
